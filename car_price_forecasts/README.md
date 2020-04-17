@@ -25,6 +25,7 @@
 - sample_submission.csv (образец предсказаний)
 - categories.list (список категорий для обработки данных)
 - best_features.list (список признаков для обработки данных)
+
 Скачать файлы можно по ссылке: https://drive.google.com/file/d/1_wv7KS-o326dhjtGiKvnZRYGnCKD2_Mv/view?usp=sharing
 
 Папка models содержит обученные модели:
@@ -38,6 +39,7 @@
 - catboost_8.5_2.model
 - catboost_8.5_3.model
 - catboost_8.5_4.model
+
 Скачать файлы можно по ссылке: https://drive.google.com/open?id=1muhMmZGk9nNrD0QZfa8kl8pxM2vo8VLJ
 
 Результат на соревновании kaggle: MAPE = 11.24149
