@@ -15,4 +15,5 @@
 В процессе работы были получены признаки товара (item_features) из отзывов, а также item_embeddings. Файлы находятся в папке data.  
 
 Датасет можно скачать со страницы соревнования Kaggle https://www.kaggle.com/c/recommendationsv4
+
 Я на Kaggle: https://www.kaggle.com/ruslankogochkin
