@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Сервис оценки недвижимости</title>
+{% endblock %}
+
+
+{% block body %}
+<br /><h2>Добро пожаловать в сервис оценки недвижимости!</h2><br />
+  <main role="main">
+    <div class="jumbotron">
+      <div class="col-sm-8 mx-auto">
+        <h3>Сколько стоит недвижимость?</h3>
+        <p>Укажите параметры недвижимости и мы определим ее рыночную стоимость.</p>
+        <p>
+          <a class="btn btn-primary" href="/predict" role="button">Поехали! &raquo;</a>
+        </p>
+      </div>
+    </div>
+  </main>
+{% endblock %}
