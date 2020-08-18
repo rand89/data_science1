@@ -37,3 +37,5 @@
 Этапы работы над проектом соответствуют выполнению поставленных выше задач.
 
 Скачать данные можно по ссылке: https://drive.google.com/file/d/1GtwQpnmRh_5n4zhgJtv8-DHoR7gooUFW/view?usp=sharing
+
+Прототип доступен по ссылке: https://flask-house.herokuapp.com
