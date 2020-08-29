@@ -1,0 +1,6 @@
+flask
+numpy
+pandas
+catboost==0.22
+wtforms
+flask_wtf
