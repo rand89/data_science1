@@ -1,0 +1,1 @@
+[('bodyType', 'седан'), ('brand', 'bmw'), ('fuelType', 'бензин'), ('modelDate', '2020'), ('numberOfDoors', '4'), ('productionDate', '2020'), ('vehicleTransmission', 'механическая'), ('engineDisplacement', '2.0 LTR'), ('enginePower', 4), ('mileage', 10), ('Привод', 'задний'), ('Владельцы', '1 владелец')]; Цена: 633722 руб.

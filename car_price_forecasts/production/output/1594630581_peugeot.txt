@@ -1,0 +1,1 @@
+[('bodyType', 'хэтчбек 5 дв.'), ('brand', 'peugeot'), ('fuelType', 'бензин'), ('modelDate', '2014'), ('numberOfDoors', '4'), ('productionDate', '2015'), ('vehicleTransmission', 'механическая'), ('engineDisplacement', '1.6 LTR'), ('enginePower', 5), ('mileage', 20), ('Привод', 'передний'), ('Владельцы', '1 владелец')]; Цена: 202859 руб.

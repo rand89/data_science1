@@ -1,0 +1,1 @@
+[('bodyType', 'седан'), ('brand', 'ford'), ('fuelType', 'гибрид'), ('modelDate', '2010'), ('numberOfDoors', '4'), ('productionDate', '2012'), ('vehicleTransmission', 'автоматическая'), ('engineDisplacement', '3.0 LTR'), ('enginePower', 10), ('mileage', 6), ('Привод', 'передний'), ('Владельцы', '1 владелец')]; Цена: 1486990 руб.
