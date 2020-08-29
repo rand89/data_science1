@@ -1,0 +1,190 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Оценка автомобиля</title>
+{% endblock %}
+
+{% block body %}
+    <div class="content-section">
+        <form method="POST" action="">
+            {{ form.hidden_tag() }}
+            <fieldset class="form-group">
+	
+                <legend class="border-bottom mb-4">Укажите характеристики автомобиля:</legend>
+				<div class="form-group">
+                    {{ form.mark.label(class="form-control-label") }}
+                    {% if form.mark.errors %}
+                        {{ form.mark(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.mark.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.mark(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+
+                <div class="form-group">
+                    {{ form.bodyType.label(class="form-control-label") }}
+                    {% if form.bodyType.errors %}
+                        {{ form.bodyType(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.bodyType.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.bodyType(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+                
+                <div class="form-group">
+                    {{ form.fuelType.label(class="form-control-label") }}
+                    {% if form.fuelType.errors %}
+                        {{ form.fuelType(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.fuelType.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.fuelType(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+
+                <div class="form-group">
+                    {{ form.productionDate.label(class="form-control-label") }}
+                    {% if form.productionDate.errors %}
+                        {{ form.productionDate(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.productionDate.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.productionDate(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+
+
+				<div class="form-group">
+                    {{ form.modelDate.label(class="form-control-label") }}
+                    {% if form.modelDate.errors %}
+                        {{ form.modelDate(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.modelDate.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.modelDate(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+      
+                <div class="form-group">
+                    {{ form.numberOfDoors.label(class="form-control-label") }}
+                    {% if form.numberOfDoors.errors %}
+                        {{ form.numberOfDoors(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.numberOfDoors.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.numberOfDoors(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+
+                <div class="form-group">
+                    {{ form.vehicleTransmission.label(class="form-control-label") }}
+                    {% if form.vehicleTransmission.errors %}
+                        {{ form.vehicleTransmission(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.vehicleTransmission.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.vehicleTransmission(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+
+                <div class="form-group">
+                    {{ form.engineDisplacement.label(class="form-control-label") }}
+                    {% if form.engineDisplacement.errors %}
+                        {{ form.engineDisplacement(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.engineDisplacement.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.engineDisplacement(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+
+                <div class="form-group">
+                    {{ form.enginePower.label(class="form-control-label") }}
+                    {% if form.enginePower.errors %}
+                        {{ form.enginePower(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.enginePower.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.enginePower(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+
+                <div class="form-group">
+                    {{ form.mileage.label(class="form-control-label") }}
+                    {% if form.mileage.errors %}
+                        {{ form.mileage(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.mileage.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.mileage(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+
+                <div class="form-group">
+                    {{ form.drive.label(class="form-control-label") }}
+                    {% if form.drive.errors %}
+                        {{ form.drive(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.drive.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.drive(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+
+                <div class="form-group">
+                    {{ form.owners.label(class="form-control-label") }}
+                    {% if form.owners.errors %}
+                        {{ form.owners(class="form-control form-control-lg is-invalid") }}
+                        <div class="invalid-feedback">
+                            {% for error in form.owners.errors %}
+                                <span>{{ error }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        {{ form.owners(class="form-control form-control-lg") }}
+                    {% endif %}
+                </div>
+
+            </fieldset>
+            <div class="form-group">
+                {{ form.submit(class="btn btn-outline-info") }}
+            </div>
+        </form>
+    </div>
+
+{% endblock body %}

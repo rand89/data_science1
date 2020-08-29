@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Сервис оценки автомобиля</title>
+{% endblock %}
+
+
+{% block body %}
+<br /><h2>Добро пожаловать в сервис оценки автомобиля!</h2><br />
+  <main role="main">
+    <div class="jumbotron">
+      <div class="col-sm-8 mx-auto">
+        <h3>Сколько стоит автомобиль?</h3>
+        <p>Укажите параметры автомобиля, и мы определим его рыночную стоимость.</p>
+        <p>
+          <a class="btn btn-primary" href="/predict" role="button">Поехали! &raquo;</a>
+        </p>
+      </div>
+    </div>
+  </main>
+{% endblock %}
